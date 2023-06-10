@@ -1,3 +1,4 @@
+/* This selector selects all html elements */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,19 +8,19 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* how to target a class selector */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* targeting a child element */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* targeting a child element w/ a class selector  */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -35,17 +36,18 @@ body {
 .header div ul {
     list-style-type: none;
 }
-
+/* this is how to target nested elements: parent, chid, grandchild, and great-grandchild */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* targets all anchor attributes */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* targets all paragragh elements */
 p {
     font-size: 16px;
 }
@@ -54,6 +56,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    /* inlcuding an image in CSS: property: url(pathway /or link) */
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
@@ -75,6 +78,7 @@ p {
     margin-left: 20px;
 }
 
+/* targets all child elements as well */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -118,6 +122,7 @@ p {
 
 .benefit-lead img {
     display: block;
+    /* shorthand for up & down = 10px and right & left = auto */
     margin: 10px auto;
     max-width: 150px;
 }
