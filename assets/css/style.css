@@ -40,6 +40,7 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    font-size: 21px;
 }
 /* targets all anchor attributes */
 a {
@@ -49,7 +50,8 @@ a {
 
 /* targets all paragragh elements */
 p {
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .hero {
@@ -76,6 +78,7 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+   
 }
 
 /* targets all child elements as well */
